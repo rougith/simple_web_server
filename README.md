@@ -23,7 +23,7 @@ Testing the webserver.
 # PROGRAM:
 '''
 from http.server import HTTPServer,BaseHTTPRequestHandler
-content ='''<htmk
+content ='''<html
 ><h1>Hello</h1>
 </html>'''
 class MyServer(BaseHTTPRequestHandler):
