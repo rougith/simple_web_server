@@ -23,9 +23,18 @@ Testing the webserver.
 # PROGRAM:
 '''
 from http.server import HTTPServer,BaseHTTPRequestHandler
-content ='''<html
-><h1>Hello</h1>
+
+content ='''<html>
+<title> EXPERIMENT 1 </title>
+<link rel="stylesheet"
+href="style.css"
+</head>
+<body>
+<h1>Hello</h1>
+<P> Simple Web Server </P>
+</body>
 </html>'''
+
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
         print("Get request received")
