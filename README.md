@@ -30,7 +30,7 @@ content ='''<html>
 href="style.css"
 </head>
 <body>
-<h1>Hello</h1>
+<h1>Hey Buddy</h1>
 <P> Simple Web Server </P>
 </body>
 </html>'''
